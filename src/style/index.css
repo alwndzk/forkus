@@ -1,0 +1,96 @@
+  .center-text {
+    text-align: center;
+    align-items: center;
+  }
+  .top-margin {
+    margin-top: 12px;
+  }
+  nav {
+    font-family: monospace;
+    font-size: 22px;
+    margin-left: auto;
+
+    position: sticky;
+    top: 0;
+  }
+  nav ul {
+    padding-top: 10px;
+    padding-inline: 4rem;
+    display: flex;
+    gap: 3rem;
+    position: sticky;
+    top: 0;
+  }
+  nav ul > li {
+    list-style-type: none;
+  }
+  nav li {
+    list-style-type: none;
+  }
+  nav ul > li > a {
+    color: black;
+    text-decoration: none;
+    margin: 40px;
+  }
+  #img {
+    margin-top: 1px;
+  }
+  #home {
+    margin-top: 20px;
+    font-weight: bolder;
+  }
+  #logout {
+    margin-right: 50px;
+  }
+  #user, #owner {
+    font-size: 22px;
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+  .user-profile img {
+    width: 40px; /* Sesuaikan ukuran gambar dengan kebutuhan */
+    height: 40px; /* Sesuaikan ukuran gambar dengan kebutuhan */
+    border-radius: 50%; /* Untuk membuat gambar bulat */
+    margin-right: 10px; /* Untuk memberi jarak antara gambar dan teks */
+  }
+  .user-profile-nav {
+    display: flex;
+    align-items: center;
+  }
+  .user-profile-nav img {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .comment-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .comment-icon {
+    margin-right: 8px;
+  }
+
+  .comment-number {
+    margin: 0;
+  }
+  .small-form {
+    width: 500px; /* Adjust the width as needed */
+  }
+  
+  .center-form {
+    margin: 0 auto; /* Center the form horizontally */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35vh; /* Ensure the form is centered vertically */
+  }
